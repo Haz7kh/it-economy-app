@@ -1,0 +1,25 @@
+.navbar {
+  background-color: #116ac8; /* Change the background color */
+}
+
+.navbar-brand {
+  color: #fff; /* Change the text color */
+}
+
+.navbar-nav .nav-link {
+  color: #fff; /* Change the text color */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ccc; /* Change the hover text color */
+}
+
+.navbar-toggler-icon {
+  color: #c7055c; /* Change the toggler icon color */
+}
+
+@media (min-width: 768px) {
+  .navbar-nav {
+    padding-right: 50px; /* Adjust padding for larger screens */
+  }
+}
