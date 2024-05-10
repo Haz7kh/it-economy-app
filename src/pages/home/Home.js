@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./home.css";
 
 const Home = () => {
   return (
@@ -29,7 +30,7 @@ const Home = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-4">
-              <div className="card feature-card">
+              <div className="card feature-card bg-success">
                 <div className="card-body">
                   <h5 className="card-title">Feature 1</h5>
                   <p className="card-text">
@@ -39,7 +40,7 @@ const Home = () => {
               </div>
             </div>
             <div className="col-md-4">
-              <div className="card feature-card">
+              <div className="card feature-card bg-success">
                 <div className="card-body">
                   <h5 className="card-title">Feature 2</h5>
                   <p className="card-text">
@@ -49,7 +50,7 @@ const Home = () => {
               </div>
             </div>
             <div className="col-md-4">
-              <div className="card feature-card">
+              <div className="card feature-card bg-success">
                 <div className="card-body">
                   <h5 className="card-title">Feature 3</h5>
                   <p className="card-text">
@@ -59,7 +60,7 @@ const Home = () => {
               </div>
             </div>
             <div className="col-md-4">
-              <div className="card feature-card">
+              <div className="card feature-card bg-success">
                 <div className="card-body">
                   <h5 className="card-title">Feature 4</h5>
                   <p className="card-text">
@@ -69,7 +70,7 @@ const Home = () => {
               </div>
             </div>
             <div className="col-md-4">
-              <div className="card feature-card">
+              <div className="card feature-card bg-success">
                 <div className="card-body">
                   <h5 className="card-title">Feature 5</h5>
                   <p className="card-text">
@@ -79,7 +80,7 @@ const Home = () => {
               </div>
             </div>
             <div className="col-md-4">
-              <div className="card feature-card">
+              <div className="card feature-card bg-success">
                 <div className="card-body">
                   <h5 className="card-title">Feature 6</h5>
                   <p className="card-text">

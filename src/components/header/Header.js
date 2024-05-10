@@ -1,11 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./header.css";
 
 const Header = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav className="navbar navbar-expand-lg ">
       <div className="container justify-content-between">
-        <Link className="navbar-brand" to="/">
+        <Link className="navbar-brand brand" to="/">
           IT & Economy App
         </Link>
         <button
@@ -17,7 +18,7 @@ const Header = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon toggler-icon"></span>
         </button>
         <div
           className="collapse navbar-collapse justify-content-center"
