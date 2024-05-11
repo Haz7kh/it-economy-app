@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./header.css";
+import Logo from "../../assets/stockholm t ab.svg";
 
 const Header = () => {
   // State to manage the collapse state of the navbar
@@ -10,10 +11,10 @@ const Header = () => {
   const handleNavCollapse = () => setIsNavCollapsed(!isNavCollapsed);
 
   return (
-    <nav className="navbar navbar-expand-lg ">
-      <div className="container justify-content-between">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div className="container">
         <Link className="navbar-brand brand" to="/">
-          IT & Economy App
+          <img src={Logo} alt="Logo" className="logo" />
         </Link>
         {/* Toggle button */}
         <button

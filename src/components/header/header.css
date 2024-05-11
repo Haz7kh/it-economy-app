@@ -1,25 +1,35 @@
-.navbar {
-  background-color: #116ac8; /* Change the background color */
+/* header.css */
+.navbar-brand .logo {
+  max-height: 50px; /* Adjust this value as needed */
 }
 
-.brand {
-  color: #edf0f0;
-}
-
-.navbar-nav .nav-link {
-  color: #fff;
-}
-
-.navbar-nav .nav-link:hover {
-  color: #18decd;
+.navbar-toggler {
+  border: none;
 }
 
 .toggler-icon {
-  color: #18decd;
+  background-color: rgb(112, 88, 68);
+  width: 24px;
+  height: 2px;
+  display: block;
 }
 
-@media (min-width: 768px) {
-  .navbar-nav {
-    padding-right: 50px;
-  }
+.close-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding: 0;
+}
+
+.close-btn:focus {
+  outline: none;
+}
+
+.navbar-nav .nav-link {
+  padding: 10px 15px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
 }

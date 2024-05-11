@@ -1,4 +1,7 @@
 import React from "react";
+import Logo from "../../assets/stockholm t ab.svg";
+import { Link } from "react-router-dom";
+import "./footer.css";
 
 const Footer = () => {
   return (
@@ -6,7 +9,9 @@ const Footer = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-6">
-            <h3>Company Name</h3>
+            <Link className="navbar-brand brand" to="/">
+              <img src={Logo} alt="Logo" />
+            </Link>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
               auctor eros nec neque varius, quis tincidunt ex pharetra.
