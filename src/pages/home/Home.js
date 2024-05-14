@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import myVideo from "../../assets/hero-vid1.mp4";
 import "./home.css";
 
 const Home = () => {
@@ -9,20 +10,11 @@ const Home = () => {
       <section className="hero-section">
         <div className="video-background">
           <video autoPlay loop muted>
-            <source
-              src="https://www.w3schools.com/html/mov_bbb.mp4"
-              type="video/mp4"
-            />
+            <source src={myVideo} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>
-        <div className="hero-content">
-          <h1>Welcome to IT & Economy App</h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-            facilisi.
-          </p>
-        </div>
+        <div className="hero-content"></div>
       </section>
 
       {/* Features Section */}
